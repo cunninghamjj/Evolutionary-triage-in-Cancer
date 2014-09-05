@@ -266,8 +266,8 @@ for run = 1:1:numberOfRuns
         
     end % generation
     
-    filename = [ pwd, '\Run', mat2str(run), '.mat'];
-    save(filename);
+    filename = ['C:\Users\Jessica\Documents\GitHub\Evolutionary-triage-in-Cancer
+        save(filename);
     
 end % run
 
@@ -276,30 +276,30 @@ end % run
 %% Plot everything.
 
 % Plot individual (deltaP, deltaS)
-plot_DeltaPDeltaS( deltaP, deltaS, nGenes )
+% plot_DeltaPDeltaS( deltaP, deltaS, nGenes )
 
 % Plot genome (detlaP, deltaS)
-plot_GenomeDeltaPDeltaS;
+% plot_GenomeDeltaPDeltaS;
 
 % Plot evolution of bounded and reflected genome (p, S)
-plot_genomeMapping;
+% plot_genomeMapping;
 
 % Plot simulation space
-plot_SimulationSpace;
+% plot_SimulationSpace;
 
 % Plot population dynamics
-plot_PopulationDynamics;
+% plot_PopulationDynamics;
 
 % Plot evolutionary trajectory
-plot_EvolutionaryTrajectory;
+% plot_EvolutionaryTrajectory;
 
 % Plot Simpsons Index of Diversity
-plot_SimpsonsIndexOfDiversity;
+% plot_SimpsonsIndexOfDiversity;
 
 % Plot final gene prevalence
-plot_FinalGenePrevalence;
+% plot_FinalGenePrevalence;
 
 % Plot gene prevalence over time
-plot_GenePrevalenceOverTime;
+% plot_GenePrevalenceOverTime;
 
 
